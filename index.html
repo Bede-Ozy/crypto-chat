@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>cryptChat</title>
+</head>
+<body>
+
+    
+    <div class="container">
+        <!-- ---------------------------- FOR THE SENDER ---------------------------- -->
+
+        
+        <div class="chat-box">
+            <div class="header-box">
+                <div class="profile-img">
+                    <div class="dp-circle"></div>
+                    <div class="dp-base"></div>
+                </div>
+                <div class="user-name">John Doe</div>
+            </div>
+            <div class="chat-area">
+                <button class="notification">?</button>
+                <textarea name="textarea" id="text-area">
+                </textarea>
+                <button class="send-btn">Send -> </button>
+            </div>
+        </div>
+
+        <!-- ---------------------------- FOR THE RECIEVER ---------------------------- -->
+
+        <div class="chat-box">
+            <div class="header-box">
+                <div class="profile-img">
+                    <div class="dp-circle"></div>
+                    <div class="dp-base"></div>
+                </div>
+                <div class="user-name">Jane Doe</div>
+            </div>
+            <div class="chat-area">
+                <button class="notification">?</button>
+                <textarea name="textarea" id="text-area">
+                </textarea>
+                <button class="send-btn">Send -> </button>
+            </div>
+        </div>
+
+        <!-- ---------------------------- PASS PHRASE POPUP MODAL ---------------------------- -->
+
+        <div class="popup-box">
+            <div class="popup-content">
+                <h2>Enter public phrase of reciever</h2>
+                <textarea name="phrase-text-area" id="phrase-text-area"></textarea>
+                <button class="phrase-btn">Enter</button>
+            </div>
+            
+        </div>
+
+    </div>
+    
+
+
+    
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
